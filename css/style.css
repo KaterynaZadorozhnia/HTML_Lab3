@@ -1,0 +1,64 @@
+*{
+    border-radius: 10px;
+}
+body{
+    background: grey;
+}
+.header, .desc{
+    height: 70px;
+    background: yellow;
+}
+.text_block
+{
+    margin-top: 50px;
+    background: red;
+    width:50%;
+    height: 400px;
+    color:white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+}
+/*.roma_test{
+    display: block;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+}*/
+
+.roma_test{
+    display: block;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -170px;
+    left: 40px;
+}
+.roma_test--blur{
+    filter: blur(5px);
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+.desc{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-transform: uppercase;
+}
+.header_shadow, .header_text
+{
+    position: absolute;
+}
+.header_shadow{
+    color: red;
+    top: 2px;
+    left: 2px;
+    filter: blur(1px);
+    z-index: 1;
+}

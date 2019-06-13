@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, sans-serif;
+
+}
+.header, .footer{
+    background: darkred;
+    padding: 5px;
+}
+.title_block{
+    color: white;
+    font-size: 26px;
+    float: left;
+    padding: 10px;
+}
+.header__logo
+{
+    color: white;
+    font-size: 26px;
+    border: 2px solid #000;
+    padding: 10px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.content__sidebar{
+    border: 2px solid black;
+    background: lightgray;
+    color:#840000;
+    width: 30%;
+    margin: 1% 1% 1% 0;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+.content__text{
+    border: 2px solid black;
+    background: lightgray;
+    color:#840000;
+    width: 69%;
+    margin: 1% 0;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+.footer {
+
+}
